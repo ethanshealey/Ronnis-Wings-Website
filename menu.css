@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); /*modern*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700')
+@import url('https://fonts.googleapis.com/css?family=Oswald'); /* Bold Modern */
+@import url('https://fonts.googleapis.com/css?family=Shrikhand'); /*cartoon*/ 
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px'); /*serif*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Oswald|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+
+/* -- */
+body {
+    background-color: #f7f7f7;
+    height: 1580px;
+    clear: both;
+}
+.headerCard {
+    background: #f7f7f7;
+    width:100%;
+    height: 170px;
+    top:0px;
+    left:0px;
+    font-family: Oswald;
+    text-align: center;
+    margin: 0 auto;
+}
+.parallax-container {
+      height: 450px !important;
+}
+
+@media screen and (max-width: 300px) {
+    .headerCard {
+     height: 200px !important;   
+    }
+}
+.bCard {
+    
+    box-shadow: 2px 2px 25px rgba(0,0,0,.25);
+    width: 700px;
+    margin: 0 auto;
+    background: #FFF;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    padding: 5px;
+}
+.bCard:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,.30);
+}
+.bCard h2 {
+    font-family: Oswald;
+    font-size: 50px;
+    height: 65px;
+    width: 650px;
+    margin: 0 auto;
+}
+.copyright {
+    left: 0;
+    bottom: 0;
+    width: 92px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 0 5px 0 0;
+    padding-left: 5px;
+    font-family: open sans condensed;
+}
+.bCard h3 {
+    font-size: 25px;
+    font-family: Bitter;
+}
+#price {
+    font-weight: italic;
+}
+.hours {
+    width: 150px;
+    padding: 5px;
+    border-radius: 6px;
+    background: rgba(0,0,0,.1);
+    margin: 0 auto;
+}
+h3 i {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    background: dodgerblue;
+    color: #FFF;
+    cursor: default;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+h3 i:hover {
+    background: #4aa6ff;
+}
+.hour {
+    width: 150px !important;
+    border-bottom: 2px solid dodgerblue;
+    color: rgba(0,0,0,.90);
+    margin: 0 auto;
+}
+.bCard h1 {
+    font-family: Open sans;
+    color: coral;
+    width: 690px;
+}
+#item {
+    border-bottom: 2px dotted rgba(0,0,0,.35);
+    font-family: bitter;
+    width: 650px;
+    margin: 0 auto;
+}
+#itemPrice {
+    font-weight: bold;
+    float: right;
+}
+#itemExtra {
+    font-weight: lighter;
+    font-size: 13px;
+    color: rgba(0,0,0,.40);
+    padding-left: 5px;
+}
+#itemExtraUnder {
+    font-size: 13px;
+    color: rgba(0,0,0,.50);
+    font-family: bitter;
+    margin: 0 auto;
+    width: 650px;
+}
+#wings {
+    color: crimson;
+    font-family: bitter;
+    font-size: 40px;
+    height: 50px;
+}
+
+.btn-large {
+    background: dodgerblue !important;
+}
+.btn-large:hover {
+    opacity: .8;
+}
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: dodgerblue;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 700px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }

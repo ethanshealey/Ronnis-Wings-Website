@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); /*modern*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /*modern*/
+@import url('https://fonts.googleapis.com/css?family=Oswald'); /* Bold Modern */
+@import url('https://fonts.googleapis.com/css?family=Shrikhand'); /*cartoon*/ 
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px'); /*serif*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700');
+
+body {
+    background-color: #f7f7f7;
+    height: 1580px;
+    position: relative;
+}
+.headerCard {
+    background: #f7f7f7;
+    width:100%;
+    height: 170px;
+    top:0px;
+    left:0px;
+    font-family: Oswald;
+    text-align: center;
+    margin: 0 auto;
+}
+.parallax-container {
+      height: 450px !important;
+}
+
+@media screen and (max-width: 300px) {
+    .headerCard {
+     height: 200px !important;   
+    }
+}
+.bCard {
+    
+    box-shadow: 2px 2px 25px rgba(0,0,0,.25);
+    width: 700px;
+    margin: 0 auto;
+    background: #FFF;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    text-align: center;
+}
+.bCard:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,.30);
+}
+.bCard h2 {
+    font-family: Oswald;
+    font-size: 50px;
+    height: 65px;
+    width: 650px;
+    margin: 0 auto;
+}
+.copyright {
+    left: 0;
+    bottom: 0;
+    width: 92px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 0 5px 0 0;
+    padding-left: 5px;
+    font-family: open sans condensed;
+}
+.bCard h3 {
+    font-size: 25px;
+    font-family: Bitter;
+}
+#price {
+    font-weight: italic;
+}
+.hours {
+    width: 150px;
+    padding: 5px;
+    border-radius: 6px;
+    background: rgba(0,0,0,.1);
+    margin: 0 auto;
+}
+h3 i {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    background: dodgerblue;
+    color: #FFF;
+    cursor: default;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+}
+h3 i:hover {
+    background: #4aa6ff;
+}
+.hour {
+    width: 150px !important;
+    border-bottom: 2px solid dodgerblue;
+    color: rgba(0,0,0,.90);
+    margin: 0 auto;
+}
+.btn-large {
+    background: dodgerblue !important;
+}
+.btn-large:hover {
+    opacity: .8;
+}
